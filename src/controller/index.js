@@ -1,5 +1,4 @@
-'use strict';
-const si = require('systeminformation')
+const si = require('systeminformation');
 /**
  * Server status
  *
@@ -14,22 +13,23 @@ const checkHealth = async (req, res) => {
     const cpu = await si.cpu();
 
     const cpuTemperature = await si.cpuTemperature();
-    cpu.temperature = cpuTemperature
+    cpu.temperature = cpuTemperature;
     const disk = si.diskLayout();
-    const memory = await si.mem()
+    const memory = await si.mem();
     const load = await si.currentLoad();
     return res.status(200).type('json').send({
       cpu,
       memory,
       disk,
-      load
+      load,
     });
   } catch (e) {
     return res.status(400).type('json').send({
-      error: e.message
+      error: e.message,
     });
   }
-}
+};
+
 module.exports = {
-  checkHealth
-}
+  checkHealth,
+};

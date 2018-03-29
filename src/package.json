@@ -16,7 +16,12 @@
   "license": "ISC",
   "dependencies": {
     "body-parser": "^1.18.2",
+    "debug": "^3.1.0",
     "express": "^4.16.3",
+    "jsonwebtoken": "^8.2.0",
     "systeminformation": "^3.37.8"
+  },
+  "devDependencies": {
+    "eslint-config-airbnb-base": "^12.1.0"
   }
 }
