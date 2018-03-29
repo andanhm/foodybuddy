@@ -1,0 +1,28 @@
+version: '3'
+
+services:
+  cache:
+    image: redis:alpine
+    container_name: foodybuddy-cache
+    restart: on-failure:3
+
+  db:
+    container_name: foodybuddy-mongo
+    image: mongo:latest
+    volumes:
+      - ./../dockerdbdata/data:/data/db
+    restart: on-failure:3
+
+  web:
+    image: foodybuddy:1.0.0
+    container_name: foodybuddy
+    environment:
+      - JWT_SIGNING_KEY=a9e8741821c4e8e35303e434a1f028c692dc041b
+    expose:
+      - "80"
+    ports:
+      - "8080:80"
+    depends_on:
+      - cache
+      - db
+   

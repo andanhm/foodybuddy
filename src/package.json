@@ -1,0 +1,22 @@
+{
+  "name": "foodybuddy",
+  "version": "1.0.0",
+  "description": "User access controll to data",
+  "main": "app.js",
+  "scripts": {
+    "test": "eslint .",
+    "start": "node app.js"
+  },
+  "keywords": [
+    "nodejs",
+    "express",
+    "jwt"
+  ],
+  "author": "Andan H M",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.18.2",
+    "express": "^4.16.3",
+    "systeminformation": "^3.37.8"
+  }
+}
