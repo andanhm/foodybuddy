@@ -3,6 +3,7 @@
 
 <head>
   <meta name="viewport" content="width=device-width, initial-scale=1">
+
   <style>
     body {
       font-family: Arial, Helvetica, sans-serif;
@@ -36,7 +37,7 @@
       background-color: #4CAF50;
       color: white;
       padding: 14px 20px;
-      margin: 8px 0;
+      margin: 8px 10px;
       border: none;
       cursor: pointer;
       width: 100%;
@@ -168,15 +169,7 @@
 </head>
 
 <body>
-  <center>
-    <h2>FOODYBUDDY CODING CHALLENGE</h2>
-    <img src="./img/logo.png" alt="Avatar" class="avatar" />
-    <br/>
-
-    <button onclick="document.getElementById('id01').style.display='block'" style="width:auto;">Sign In</button>
-
-    <button onclick="document.getElementById('id02').style.display='block'" style="width:auto;">Sign Up</button>
-  </center>
+  <div id="app"></div>
   <div id="id01" class="modal">
 
     <form class="modal-content animate" action="/action_page.php">
@@ -262,5 +255,6 @@
   </script>
 
 </body>
+<script src="dist/foodybuddy.bundle.js"></script>
 
 </html>
