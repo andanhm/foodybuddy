@@ -57,8 +57,8 @@ Password:
 ```
 
 ## TODO
-[x] Module design
-[ ] Database integration
-[ ] User Sign-up and Sign-in with MongoDB
-[x] JWT Authorization token handle user claims
-[ ] Front-end React app creation
+* [x] Module design
+* [ ] Database integration
+* [ ] User Sign-up and Sign-in with MongoDB
+* [x] JWT Authorization token handle user claims
+* [ ] Front-end React app creation
