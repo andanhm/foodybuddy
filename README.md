@@ -3,6 +3,7 @@
 ![image](logo.png)
 
 ## Tech stack
+![image](src/public/img/tech_stack.png)
 
 > My Option use *Go* better
 
@@ -54,3 +55,10 @@ $ sudo chmod +x build.sh
 Password:
 
 ```
+
+## TODO
+[x] Module design
+[ ] Database integration
+[ ] User Sign-up and Sign-in with MongoDB
+[x] JWT Authorization token handle user claims
+[ ] Front-end React app creation
