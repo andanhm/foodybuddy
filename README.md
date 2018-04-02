@@ -49,6 +49,64 @@
     4. Horizontal scale-out with data locality controls
     5. Single document better performance, indexing for faster retrieval of data.
 
+## Sample Output
+
+### Home
+
+![img](./img/home.png)
+
+### Sign In
+
+![img](./img/sign_in.png)
+
+### Sign Up
+
+![img](./img/sign_up.png)
+
+### Admin with full rights
+
+> Admin type have full access
+
+```json
+
+  [{
+    "address": {
+      "city": "RIDGEWOOD",
+      "zip": 11385,
+      "street": "MENAHAN ST",
+      "number": 1712
+    },
+    "_id": "5ac2983869d74d1becca64df",
+    "id": "10021-2015-ENFO",
+    "certificate_number": 9278806,
+    "business_name": "ATLIXCO DELI GROCERY INC.",
+    "date": "Feb 20 2015",
+    "result": "No Violation Issued",
+    "sector": "Cigarette Retail Dealer - 127"
+  }]
+```
+
+### User with restricted rights
+
+> User type restricted access to columns certificate_number in the result.
+
+```json
+  [{
+    "address": {
+      "city": "RIDGEWOOD",
+      "zip": 11385,
+      "street": "MENAHAN ST",
+      "number": 1712
+    },
+    "_id": "5ac2983869d74d1becca64df",
+    "id": "10021-2015-ENFO",
+    "business_name": "ATLIXCO DELI GROCERY INC.",
+    "date": "Feb 20 2015",
+    "result": "No Violation Issued",
+    "sector": "Cigarette Retail Dealer - 127"
+  }]
+```
+
 ## Pre request
 
 1. [Docker](https://runnable.com/docker/install-docker-on-linux)
