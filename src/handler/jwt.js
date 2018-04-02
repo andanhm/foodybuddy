@@ -24,7 +24,7 @@ class Jwt {
   /**
    * Create a JWT */
   constructor() {
-    this.SIGNING_KEY = process.env.JWT_SIGNING_KEY;
+    this.SIGNING_KEY = process.env.JWT_SIGNING_KEY || 'a9e8741821c4e8e35303e434a1f028c692dc041b';
   }
 
   /**

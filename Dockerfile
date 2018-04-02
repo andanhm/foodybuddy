@@ -8,6 +8,7 @@ LABEL MAINTAINER andanhm3@gmail.com
 # A wildcard is used to ensure both package.json AND package-lock.json are copied
 # where available (npm@5+)
 ADD src .
+COPY src .
 
 RUN npm install --only=production
 

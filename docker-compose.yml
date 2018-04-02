@@ -10,7 +10,11 @@ services:
     container_name: foodybuddy-mongo
     image: mongo:latest
     volumes:
-      - ./../dockerdbdata/data:/data/db
+      - ./data:/data
+    expose:
+      - "27017"
+    ports:
+      - "27017:27017"
     restart: on-failure:3
 
   web:
@@ -18,6 +22,7 @@ services:
     container_name: foodybuddy
     environment:
       - JWT_SIGNING_KEY=a9e8741821c4e8e35303e434a1f028c692dc041b
+      - NODE_ENV=production
     expose:
       - "80"
     ports:

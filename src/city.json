@@ -1,0 +1,324 @@
+[
+  {
+    "id": "10021-2015-ENFO",
+    "certificate_number": 9278806,
+    "business_name": "ATLIXCO DELI GROCERY INC.",
+    "date": "Feb 20 2015",
+    "result": "No Violation Issued",
+    "sector": "Cigarette Retail Dealer - 127",
+    "address": {
+      "city": "RIDGEWOOD",
+      "zip": 11385,
+      "street": "MENAHAN ST",
+      "number": 1712
+    }
+  },
+  {
+    "id": "10057-2015-ENFO",
+    "certificate_number": 6007104,
+    "business_name": "LD BUSINESS SOLUTIONS",
+    "date": "Feb 25 2015",
+    "result": "Violation Issued",
+    "sector": "Tax Preparers - 891",
+    "address": {
+      "city": "NEW YORK",
+      "zip": 10030,
+      "street": "FREDERICK DOUGLASS BLVD",
+      "number": 2655
+    }
+  },
+  {
+    "id": "10084-2015-ENFO",
+    "certificate_number": 9278914,
+    "business_name": "MICHAEL GOMEZ RANGHALL",
+    "date": "Feb 10 2015",
+    "result": "No Violation Issued",
+    "sector": "Locksmith - 062",
+    "address": {
+      "city": "QUEENS VLG",
+      "zip": 11427,
+      "street": "214TH ST",
+      "number": 8823
+    }
+  },
+  {
+    "id": "1012-2015-CMPL",
+    "certificate_number": 5346909,
+    "business_name": "A\u0026C CHIMNEY CORP.",
+    "date": "Apr 22 2015",
+    "result": "Violation Issued",
+    "sector": "Home Improvement Contractor - 100",
+    "address": {
+      "city": "QUEENS VLG",
+      "zip": 11428,
+      "street": "210TH ST",
+      "number": 9440
+    }
+  },
+  {
+    "id": "10127-2015-CMPL",
+    "certificate_number": 5381180,
+    "business_name": "ERIC CONSTRUCTION AND DECORATING INC.",
+    "date": "Sep  8 2015",
+    "result": "Violation Issued",
+    "sector": "Home Improvement Contractor - 100",
+    "address": {
+      "city": "STATEN ISLAND",
+      "zip": 10304,
+      "street": "TODT HILL RD",
+      "number": 1233
+    }
+  },
+  {
+    "id": "10172-2015-CMPL",
+    "certificate_number": 9304489,
+    "business_name": "UNNAMED HOT DOG VENDOR LICENSE NUMBER TA01158",
+    "date": "Aug 21 2015",
+    "result": "No Violation Issued",
+    "sector": "Mobile Food Vendor - 881",
+    "address": {
+      "city": "",
+      "zip": "",
+      "street": "",
+      "number": ""
+    }
+  },
+  {
+    "id": "102-2015-UNIT",
+    "certificate_number": 10003479,
+    "business_name": "SOUTH BRONX AUTOMOTIVE CORP",
+    "date": "May 28 2015",
+    "result": "Pass",
+    "sector": "Tow Truck Company - 124",
+    "address": {
+      "city": "",
+      "zip": "",
+      "street": "",
+      "number": ""
+    }
+  },
+  {
+    "id": "10268-2015-CMPL",
+    "certificate_number": 9304816,
+    "business_name": "UNNAMED HOT DOG VENDOR NO LICENSE NUMBER PROVIDED",
+    "date": "Aug 19 2015",
+    "result": "No Violation Issued",
+    "sector": "Mobile Food Vendor - 881",
+    "address": {
+      "city": "",
+      "zip": "",
+      "street": "",
+      "number": ""
+    }
+  },
+  {
+    "id": "10284-2015-ENFO",
+    "certificate_number": 9287088,
+    "business_name": "VYACHESLAV KANDZHANOV",
+    "date": "Feb 25 2015",
+    "result": "No Violation Issued",
+    "sector": "Misc Non-Food Retail - 817",
+    "address": {
+      "city": "NEW YORK",
+      "zip": 10030,
+      "street": "FREDRCK D BLVD",
+      "number": 2655
+    }
+  },
+  {
+    "id": "10312-2015-ENFO",
+    "certificate_number": 9287090,
+    "business_name": "GRICEYDA M VILLAR",
+    "date": "Feb 25 2015",
+    "result": "No Violation Issued",
+    "sector": "Salons And Barbershop - 841",
+    "address": {
+      "city": "NEW YORK",
+      "zip": 10030,
+      "street": "FREDRCK D BLVD",
+      "number": 2645
+    }
+  },
+  {
+    "id": "10302-2015-ENFO",
+    "certificate_number": 9287089,
+    "business_name": "NYC CANDY STORE SHOP CORP",
+    "date": "Feb 25 2015",
+    "result": "No Violation Issued",
+    "sector": "Cigarette Retail Dealer - 127",
+    "address": {
+      "city": "NEW YORK",
+      "zip": 10030,
+      "street": "FREDRCK D BLVD",
+      "number": 2653
+    }
+  },
+  {
+    "id": "10290-2015-CMPL",
+    "certificate_number": 9305498,
+    "business_name": "AYAD YOUSSEF",
+    "date": "Jul 23 2015",
+    "result": "No Violation Issued",
+    "sector": "Mobile Food Vendor - 881",
+    "address": {
+      "city": "JERSEY CITY",
+      "zip": 7306,
+      "street": "TONNELE AVE",
+      "number": 70
+    }
+  },
+  {
+    "id": "10318-2015-ENFO",
+    "certificate_number": 9287092,
+    "business_name": "BISHWANATH BISWAS",
+    "date": "Feb 25 2015",
+    "result": "No Violation Issued",
+    "sector": "Mobile Food Vendor - 881",
+    "address": {
+      "city": "ELMHURST",
+      "zip": 11373,
+      "street": "75TH ST",
+      "number": 4157
+    }
+  },
+  {
+    "id": "1033-2015-CMPL",
+    "certificate_number": 5347333,
+    "business_name": "H \u0026 H FURNITURE",
+    "date": "Apr 29 2015",
+    "result": "Violation Issued",
+    "sector": "Home Improvement Contractor - 100",
+    "address": {
+      "city": "S RICHMOND HL",
+      "zip": 11419,
+      "street": "101ST AVE",
+      "number": 11420
+    }
+  },
+  {
+    "id": "10351-2015-CMPL",
+    "certificate_number": 5381196,
+    "business_name": "NEW FINEST BUILDERS INC",
+    "date": "Dec  1 2015",
+    "result": "Violation Issued",
+    "sector": "Home Improvement Contractor - 100",
+    "address": {
+      "city": "BROOKLYN",
+      "zip": 11234,
+      "street": "E 55TH ST",
+      "number": 1320
+    }
+  },
+  {
+    "id": "10391-2015-ENFO",
+    "certificate_number": 3019415,
+    "business_name": "WILFREDO DELIVERY SERVICE INC",
+    "date": "Feb 26 2015",
+    "result": "Fail",
+    "sector": "Fuel Oil Dealer - 814",
+    "address": {
+      "city": "WADING RIVER",
+      "zip": 11792,
+      "street": "WADING RIVER MANOR RD",
+      "number": 1607
+    }
+  },
+  {
+    "id": "10423-2015-CMPL",
+    "certificate_number": 9304139,
+    "business_name": "LISANDRO CABRERA",
+    "date": "Jul 17 2015",
+    "result": "No Violation Issued",
+    "sector": "Mobile Food Vendor - 881",
+    "address": {
+      "city": "BRONX",
+      "zip": 10475,
+      "street": "PALMER AVE",
+      "number": 2234
+    }
+  },
+  {
+    "id": "1044-2016-ENFO",
+    "certificate_number": 9318079,
+    "business_name": "AZMY KIROLES",
+    "date": "Dec 23 2015",
+    "result": "No Violation Issued",
+    "sector": "Mobile Food Vendor - 881",
+    "address": {
+      "city": "JERSEY CITY",
+      "zip": 7306,
+      "street": "VROOM ST",
+      "number": 160
+    }
+  },
+  {
+    "id": "1044-2015-CMPL",
+    "certificate_number": 5382334,
+    "business_name": "BUILDING TO SERVE INC.",
+    "date": "Jul 22 2015",
+    "result": "Violation Issued",
+    "sector": "Home Improvement Contractor - 100",
+    "address": {
+      "city": "JAMAICA",
+      "zip": 11432,
+      "street": "HILLSIDE AVE",
+      "number": 17939
+    }
+  },
+  {
+    "id": "10459-2015-ENFO",
+    "certificate_number": 3019419,
+    "business_name": "SPRAGUE OPERATING RESOURCES LLC.",
+    "date": "Feb 27 2015",
+    "result": "Pass",
+    "sector": "Fuel Oil Dealer - 814",
+    "address": {
+      "city": "LAWRENCE",
+      "zip": 11559,
+      "street": "BAY BLVD",
+      "number": 1
+    }
+  },
+  {
+    "id": "10464-2015-CMPL",
+    "certificate_number": 5381856,
+    "business_name": "NADER R. ABDELREHIM",
+    "date": "Aug 21 2015",
+    "result": "Violation Issued",
+    "sector": "Mobile Food Vendor - 881",
+    "address": {
+      "city": "BROOKLYN",
+      "zip": 11222,
+      "street": "NEWELL ST",
+      "number": 51
+    }
+  },
+  {
+    "id": "10465-2015-CMPL",
+    "certificate_number": 9289037,
+    "business_name": "UNNAMED HOT DOG WAGON  NO LICENSE NUMBER PROVIDED",
+    "date": "Jul 23 2015",
+    "result": "Unable to Locate",
+    "sector": "Mobile Food Vendor - 881",
+    "address": {
+      "city": "",
+      "zip": "",
+      "street": "",
+      "number": ""
+    }
+  },
+  {
+    "id": "1048-2016-ENFO",
+    "certificate_number": 9319054,
+    "business_name": "QUIRINO MORALES",
+    "date": "Dec 23 2015",
+    "result": "No Violation Issued",
+    "sector": "Mobile Food Vendor - 881",
+    "address": {
+      "city": "EAST ELMHURST",
+      "zip": 11370,
+      "street": "80TH ST",
+      "number": 3216
+    }
+  }
+]

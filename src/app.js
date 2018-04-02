@@ -1,14 +1,18 @@
 const version = '1.0.0';
 
 const os = require('os');
+
+const { Connect } = require('./handler/mongo');
+const { Init } = require('./dump');
+
 const express = require('express');
-const debug = require('debug')('foodybuddy');
+const Logger = require('./handler/log');
 const http = require('./handler/http');
 const bodyParser = require('body-parser');
 const path = require('path');
 
 // Constants
-const PORT = 8080;
+const PORT = 80;
 const HOST = '0.0.0.0';
 
 // App
@@ -48,7 +52,7 @@ app.use((req, res) => {
 });
 
 app.use((error, req, res, next) => {
-  debug('http_status: %d, %s', error.status || 500, error.message);
+  Logger.error('SERVER_ERROR', error.message);
   next(error);
 });
 
@@ -61,10 +65,19 @@ app.use((error, req, res) => {
 });
 
 process.on('uncaughtException', (error) => {
-  debug('Error: %s', error.message);
+  Logger.fatal('UNCAUGHT_EXCEPTION', error.message);
+});
+
+// Connection to MongoDB
+Connect().then((error) => {
+  if (error) {
+    Logger.fatal('DB_CONNECTION ERROR', error.message);
+    return;
+  }
+  Init();
 });
 
 app.listen(PORT, HOST);
 
 /* eslint no-console: "off" */
-console.log(`Running on http://${HOST}:${PORT}`);
+Logger.debug('APP_STARTED', `Running on http://${HOST}:${PORT}`);

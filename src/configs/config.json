@@ -1,0 +1,16 @@
+{
+  "development": {
+    "multiples": 1,
+    "port": 8080,
+    "db": {
+      "mongo": "mongodb://127.0.0.1/foodybuddy?authSource=admin"
+    }
+  },
+  "production": {
+    "multiples": 1,
+    "port": 80,
+    "db": {
+      "mongo": "mongodb://foodybuddy-mongo:27107/foodybuddy?authSource=admin"
+    }
+  }
+}
