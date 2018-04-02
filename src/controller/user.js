@@ -55,7 +55,7 @@ const signUp = async (req, res) => {
  * @param  {Object} req The req object represents the HTTP request
  * @param  {Object} res The res object represents the HTTP response
  */
-const login = async (req, res) => {
+const signIn = async (req, res) => {
   try {
     const postData = req.body;
     const payload = {
@@ -125,7 +125,7 @@ const logout = async (req, res) => {
 
 module.exports = {
   signUp,
-  login,
+  signIn,
   logout,
   users,
 };

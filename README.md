@@ -89,10 +89,11 @@ Password:
 ## TODO
 
 * [x] Module design
-* [ ] Database integration
-* [ ] User Sign-up and Sign-in with MongoDB
+* [x] Database integration
+* [x] User Sign-up and Sign-in with MongoDB
 * [x] JWT Authorization token handle user claims
-* [ ] Front-end React app creation
+* [x] Front-end React app creation
+* [ ] Need to render city inspection json to react bootstrap table
 * [ ] Unit testing (*JEST*)
 * [ ] Node cluster
 

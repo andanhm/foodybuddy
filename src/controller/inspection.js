@@ -49,18 +49,21 @@ const inspections = async (req, res) => {
       });
     }
     const { type } = Jwt.decode(token);
-    const show = (type === 'admin') ? 1 : 0;
-    const uList = await CityInspectionSchema.find({}, {
-      _id: 0,
+    const show = {
       id: 1,
-      certificate_number: show,
+      certificate_number: 1,
       business_name: 1,
       date: 1,
       type: 1,
       result: 1,
       sector: 1,
       address: 1,
-    });
+    };
+
+    if (type !== 'admin') {
+      delete show.certificate_number;
+    }
+    const uList = await CityInspectionSchema.find({}, show);
     if (!uList) {
       return res.status(400).type('json').send({
         error: 'Invalid user credentials',
